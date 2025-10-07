@@ -1,0 +1,17 @@
+[package]
+name = "minha_extensao"
+version = "1.0.0"
+edition = "2021"
+authors = ["Seu Nome <seu@email.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ext-php-rs = "0.14"
+
+[profile.release]
+strip = true        # Remove símbolos de debug
+lto = true          # Link-Time Optimization
+codegen-units = 1   # Otimização máxima
+opt-level = 3       # Nível de otimização

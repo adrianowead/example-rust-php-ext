@@ -1,0 +1,293 @@
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-env-changed=LZMA_API_STATIC
+cargo:root=D:\desenvolvimento\wead\example-rust-php-ext\target\release\build\liblzma-sys-45f7831741afb33c\out
+cargo:include=C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz/src/liblzma/api
+OUT_DIR = Some(D:\desenvolvimento\wead\example-rust-php-ext\target\release\build\liblzma-sys-45f7831741afb33c\out)
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(D:\desenvolvimento\wead\example-rust-php-ext\target\release\deps;D:\desenvolvimento\wead\example-rust-php-ext\target\release;C:\Users\adria\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\adria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\adria\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;D:\utils\programas;D:\utils\programas\ffmpeg\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI;D:\utils\flutter\bin;D:\utils\programas\mingw64\bin;C:\Program Files\LLVM\bin;D:\utils\php-8.3.1-nts-Win32-vs16-x64;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;D:\utils\programas\d2-v0.6.3\bin;D:\utils\pngquant;D:\utils\optipng-0.7.8-win64;C:\Program Files\Go\bin;D:\utils\programas\nvm;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Program Files\gs\gs10.05.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\adria\AppData\Local\Muse Hub\lib;C:\Program Files\Calibre2;C:\Program Files\PowerShell\7;C:\Program Files\Git\cmd;C:\Users\adria\.cargo\bin;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\adria\AppData\Local\Android\Sdk\platform-tools;C:\Users\adria\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2\bin;C:\Users\adria\go\bin;D:\utils\programas\nvm;D:\utils\programas\nvm;C:\Program Files\nodejs;D:\utils\php-composer;C:\Users\adria\AppData\Roaming\Composer\vendor\bin;C:\Users\adria\.lmstudio\bin;C:\Program Files\Graphviz\bin;C:\Users\adria\AppData\Local\Programs\Ollama;D:\utils\gradle-8.7\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\adria\AppData\Local\Muse Hub\lib;D:\utils\upx-5.0.2-win64;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\adria\.rustup\toolchains\nightly-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,lahfsahf,sse,sse2,sse3,x87)
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+tuklib_cpucores.c
+tuklib_physmem.c
+check.c
+crc32_fast.c
+crc64_fast.c
+sha256.c
+alone_decoder.c
+alone_encoder.c
+xz/src/liblzma/lz\lz_decoder.h(208): warning C4267: 'inicializando': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+auto_decoder.c
+block_buffer_decoder.c
+block_buffer_encoder.c
+block_decoder.c
+block_encoder.c
+xz/src/liblzma/common\block_buffer_encoder.c(146): warning C4267: '=': convers∆o de 'size_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/common\block_encoder.c(150): warning C4100: 'filters': parÉmetro formal n∆o referenciado
+block_header_decoder.c
+block_header_encoder.c
+block_util.c
+xz/src/liblzma/common\block_header_encoder.c(84): warning C4267: '=': convers∆o de 'size_t' para 'uint8_t', poss°vel perda de dados
+common.c
+easy_buffer_encoder.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+easy_decoder_memusage.c
+easy_encoder.c
+easy_encoder_memusage.c
+easy_preset.c
+file_info.c
+filter_buffer_decoder.c
+filter_buffer_encoder.c
+xz/src/liblzma/common\file_info.c(254): warning C4100: 'action': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\file_info.c(253): warning C4100: 'out_size': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\file_info.c(252): warning C4100: 'out_pos': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\file_info.c(251): warning C4100: 'out': parÉmetro formal n∆o referenciado
+filter_common.c
+filter_decoder.c
+filter_encoder.c
+filter_flags_decoder.c
+filter_flags_encoder.c
+hardware_cputhreads.c
+hardware_physmem.c
+index.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+index_decoder.c
+xz/src/liblzma/common\index.c(102): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+index_encoder.c
+xz/src/liblzma/common\index_decoder.c(62): warning C4100: 'action': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_decoder.c(61): warning C4100: 'out_size': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_decoder.c(60): warning C4100: 'out_pos': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_decoder.c(59): warning C4100: 'out': parÉmetro formal n∆o referenciado
+index_hash.c
+xz/src/liblzma/common\index_encoder.c(50): warning C4100: 'action': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_encoder.c(47): warning C4100: 'in_size': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_encoder.c(46): warning C4100: 'in_pos': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_encoder.c(45): warning C4100: 'in': parÉmetro formal n∆o referenciado
+xz/src/liblzma/common\index_encoder.c(44): warning C4100: 'allocator': parÉmetro formal n∆o referenciado
+lzip_decoder.c
+microlzma_decoder.c
+xz/src/liblzma/common\lzip_decoder.c(340): warning C4100: 'coder_ptr': parÉmetro formal n∆o referenciado
+microlzma_encoder.c
+xz/src/liblzma/lz\lz_decoder.h(208): warning C4267: 'inicializando': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+outqueue.c
+stream_buffer_decoder.c
+stream_buffer_encoder.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\common\outqueue.h(69): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+stream_decoder.c
+stream_encoder.c
+stream_flags_common.c
+stream_flags_decoder.c
+stream_flags_encoder.c
+string_conversion.c
+xz/src/liblzma/common\stream_flags_encoder.c(68): warning C4244: 'funá∆o': convers∆o de 'const lzma_vli' para 'uint32_t', poss°vel perda de dados
+vli_decoder.c
+vli_encoder.c
+vli_size.c
+delta_common.c
+delta_decoder.c
+delta_encoder.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+lz_decoder.c
+xz/src/liblzma/delta\delta_encoder.c(97): warning C4100: 'filters_null': parÉmetro formal n∆o referenciado
+xz/src/liblzma/delta\delta_encoder.c(129): warning C4244: '=': convers∆o de 'const uint32_t' para 'uint8_t', poss°vel perda de dados
+lz_encoder.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\lz\lz_decoder.h(208): warning C4267: 'inicializando': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+lz_encoder_mf.c
+fastpos_table.c
+xz/src/liblzma/lz\lz_encoder.c(110): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(202): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(205): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(223): warning C4267: '+=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(236): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(237): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(254): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(311): warning C4267: '=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(218): warning C4267: 'inicializando': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_encoder.c(509): warning C4100: 'filters_null': parÉmetro formal n∆o referenciado
+lzma2_decoder.c
+lzma2_encoder.c
+lzma_decoder.c
+xz/src/liblzma/lz\lz_decoder.h(208): warning C4267: 'inicializando': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma2_decoder.c(228): warning C4100: 'id': parÉmetro formal n∆o referenciado
+lzma_encoder.c
+lzma_encoder_optimum_fast.c
+xz/src/liblzma/lzma\lzma2_encoder.c(84): warning C4267: '+=': convers∆o de 'size_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma2_encoder.c(90): warning C4267: '=': convers∆o de 'size_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma2_encoder.c(125): warning C4267: '=': convers∆o de 'size_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma2_encoder.c(167): warning C4267: 'inicializando': convers∆o de 'size_t' para 'const uint32_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma2_encoder.c(309): warning C4100: 'id': parÉmetro formal n∆o referenciado
+xz/src/liblzma/lzma\lzma2_encoder.c(397): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/lz\lz_decoder.h(208): warning C4267: 'inicializando': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma_decoder.c(381): warning C4244: 'funá∆o': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma_decoder.c(745): warning C4244: 'funá∆o': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/lzma\lzma_decoder.c(1206): warning C4244: '-=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+lzma_encoder_optimum_normal.c
+xz/src/liblzma/lzma\lzma_encoder.c(756): warning C4244: '=': convers∆o de 'const uint32_t' para 'uint8_t', poss°vel perda de dados
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+lzma_encoder_presets.c
+price_table.c
+arm.c
+arm64.c
+armthumb.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\arm.c(38): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\arm.c(39): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\arm.c(40): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\arm.c(17): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+ia64.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\arm64.c(27): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+powerpc.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\armthumb.c(45): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\armthumb.c(47): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\armthumb.c(17): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+riscv.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\ia64.c(17): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+simple_coder.c
+simple_decoder.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\powerpc.c(42): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\powerpc.c(43): warning C4244: '=': convers∆o de 'uint32_t' para 'uint8_t', poss°vel perda de dados
+xz/src/liblzma/simple\powerpc.c(17): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\riscv.c(355): warning C4100: 'is_encoder': parÉmetro formal n∆o referenciado
+xz/src/liblzma/simple\riscv.c(353): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+xz/src/liblzma/simple\riscv.c(636): warning C4100: 'is_encoder': parÉmetro formal n∆o referenciado
+xz/src/liblzma/simple\riscv.c(634): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+simple_encoder.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\simple_coder.c(62): warning C4267: '+=': convers∆o de 'size_t' para 'uint32_t', poss°vel perda de dados
+xz/src/liblzma/simple\simple_coder.c(224): warning C4100: 'filters_null': parÉmetro formal n∆o referenciado
+sparc.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+x86.c
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+xz/src/liblzma/simple\sparc.c(17): warning C4100: 'simple': parÉmetro formal n∆o referenciado
+C:\Users\adria\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\liblzma-sys-0.4.4\xz\src\liblzma\simple\simple_private.h(61): warning C4200: extens∆o n∆o padr∆o usada: matriz de tamanho zero em struct/union
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-lib=static=lzma
+cargo:rustc-link-search=native=D:\desenvolvimento\wead\example-rust-php-ext\target\release\build\liblzma-sys-45f7831741afb33c\out
