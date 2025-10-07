@@ -1,3 +1,4 @@
-target/**/*
-!target/**/*.dll
-!target/**/*.so
+target/**
+!target/*/
+!target/*/*.dll
+!target/*/*.so
